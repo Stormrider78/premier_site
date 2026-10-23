@@ -28,7 +28,7 @@ def presentation():
     return "Je m'appelle Axel et je suis étudiant en informatique."
 
 @app.get("/loisirs")
-def loisir():
+def loisirs():
     return "Je m'appelle Axel et j'aime le sport."
 
 
