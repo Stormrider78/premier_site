@@ -38,8 +38,8 @@ def bonjour(prenom):
 
 @app.get("/calcul")
 def calcul():
-    a = int(request.args.get("a", 0))
-    b = int(request.args.get("b", 0))
+    a = int(request.args.get("a", 3))
+    b = int(request.args.get("b", 4))
     return f"{a} + {b} = {a + b}"
 
 # ---------------------------------------------------------------
