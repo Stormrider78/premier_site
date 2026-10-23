@@ -32,7 +32,7 @@ def presentation():
 def loisirs():
     return "Je m'appelle Axel et j'aime le sport."
 
-@app.get("/bonjour/<Axel>")
+@app.get("/bonjour/<prenom>")
 def bonjour(Axel):
     return f"<h1>Bonjour Axel !</h1>"
 
